@@ -26,7 +26,7 @@ def textanalysis(user_input):
 if st.button('check'):
     st.write("you entered :",textanalysis(vect_text)," message")
 
-    # https://covidtexttweetanalysis.herokuapp.com/
+# https://covidtexttweetanalysis.herokuapp.com/
 
 
 

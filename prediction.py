@@ -24,7 +24,9 @@ def textanalysis(user_input):
         predicted='Negative'
     return predicted
 if st.button('check'):
-    st.write("you entered :",textanalysis(vect_text))
+    st.write("you entered :",textanalysis(vect_text)," message")
+
+    # https://covidtexttweetanalysis.herokuapp.com/
 
 
 
